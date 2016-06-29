@@ -1,3 +1,11 @@
+/**
+*	@fileOverview dataAccess
+*
+*	generic data access service
+*
+*	using NoSql data (azure storage)
+*/
+
 var azure = require('azure-storage');
 
 const ACCOUNT_NAME = "hatem";

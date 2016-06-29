@@ -35,7 +35,7 @@ gulp.task('develop', function () {
 });
 
 gulp.task('doc', function (cb) {
-    gulp.src(['README.md', './routes/**/*.js'], {read: false})
+    gulp.src(['README.md', './api/**/*.js'], {read: false})
         .pipe(jsdoc(cb));
 });
 

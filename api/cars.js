@@ -1,12 +1,14 @@
 /**
-	cars REST API
-	server/cars	
+*	@fileOverview Cars
+* 
+*	cars REST API
+*
+*	server/cars	
 */
 
 var express = require('express');
 var router = express.Router();
 var q = require('q');
-var cars = require('./cars.json');
 var DAO = require('./dataAccess.js')("cars", q);
 
 
